@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1257600332 source:d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\interface.cpp
+	"gPackage.h"
+
+1257600332 d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\gpackage.h
+	"pixel.h"
+	<svl/svl.h>
+
+1257000478 d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\pixel.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"SDL/SDL.h"
+	"gp2x.h"
+
+1256399020 d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\gp2x.h
+
+1257004313 source:d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\pixel.cpp
+	"pixel.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1257600332 source:d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\polygon.cpp
+	"gPackage.h"
+	<math.h>
+
+1257599841 source:d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\zbuffer.cpp
+	"gPackage.h"
+
+1288191591 source:d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\geometry.cpp
+	"gPackage.h"
+
+1290008412 source:d:\work\teaching\graphics\coursework\cw2\lab2\base.lab.2\main.cpp
+	"gPackage.h"
+

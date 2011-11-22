@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="armtest" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gp2x_dev_kit" />
+		<Build>
+			<Target title="Release">
+				<Option output=".\armtest.gpe" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gp2x_dev_kit" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-DGP2X_PLATFORM" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add option="-lgcc" />
+			<Add option="-lm" />
+			<Add option="-lSDL" />
+			<Add option="-lpthread" />
+			<Add option="-lsvl" />
+		</Linker>
+		<Unit filename="..\gPackage.h" />
+		<Unit filename="..\geometry.cpp" />
+		<Unit filename="..\gp2x.h" />
+		<Unit filename="..\interface.cpp" />
+		<Unit filename="..\main.cpp" />
+		<Unit filename="..\pixel.cpp" />
+		<Unit filename="..\pixel.h" />
+		<Unit filename="..\polygon.cpp" />
+		<Unit filename="..\zbuffer.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

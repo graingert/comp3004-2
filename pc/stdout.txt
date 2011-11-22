@@ -1,0 +1,7 @@
+PC Version
+SDL Setp Done
+BPP is 4
+WIDTH is 640
+HEIGHT is 490
+Starting Main Loop
+Exit Main Loop

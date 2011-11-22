@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="..\geometry.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1372" topLine="44" />
+	</File>
+	<File name="..\interface.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="638" topLine="0" />
+	</File>
+	<File name="..\main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="672" topLine="15" />
+	</File>
+	<File name="..\polygon.cpp" open="1" top="1" tabpos="4">
+		<Cursor position="9889" topLine="390" />
+	</File>
+	<File name="..\zbuffer.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
